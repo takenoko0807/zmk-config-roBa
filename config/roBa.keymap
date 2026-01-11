@@ -108,8 +108,6 @@
 &kp GRAVE  &kp EXCLAMATION  &kp AT        &kp HASH              &trans                 &trans      &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp COLON      &kp DOUBLE_QUOTES  &kp PIPE
 &trans     &trans           &trans        &trans                &trans                 &trans      &trans  &trans                                                                         &trans
             >;
-
-            sensor-bindings = <&scroll_up_down>;
         };
 
         NUM {
@@ -119,8 +117,6 @@
 &mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL                    &trans          &kp ESCAPE  &kp F1  &kp F2  &kp F3  &kp F12
 &trans                      &trans           &trans           &trans           &trans        &trans                       &trans          &trans                              &kp F13
             >;
-
-            sensor-bindings = <&scroll_up_down>;
         };
 
         ARROW {
@@ -130,8 +126,6 @@
 &kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &trans  &trans  &trans          &trans          &trans           &trans
 &trans          &trans                  &trans          &trans                   &trans   &trans      &trans  &trans                                                   &trans
             >;
-
-            sensor-bindings = <&scroll_up_down>;
         };
 
         MOUSE {
