@@ -125,8 +125,6 @@
 &kp GRAVE  &kp EXCLAMATION  &kp AT        &kp HASH              &trans                 &trans      &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp COLON      &kp DOUBLE_QUOTES  &kp PIPE
 &trans     &trans           &trans        &trans                &trans                 &trans      &trans  &trans                                                                         &trans
             >;
-
-            sensor-bindings = <&scroll_up_down>;
         };
 
         NUM {
@@ -145,8 +143,6 @@
 &kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &trans  &trans  &trans          &trans          &trans           &trans
 &trans          &trans                  &trans          &trans                   &trans   &trans      &trans  &trans                                                   &trans
             >;
-
-            sensor-bindings = <&scroll_up_down>;
         };
 
         MOUSE {
@@ -156,8 +152,6 @@
 &to_layer_0 Z  &to_layer_0 X  &to_layer_0 C  &to_layer_0 V      &to_layer_0 B  &trans                 &kp LC(C)  &to_layer_0 N  &mkp MB4           &kp LC(W)          &mkp MB5           &trans
 &trans         &trans         &trans         &to_layer_0 LANG2  &trans         &to_layer_0 LANG1      &trans     &trans                                                                  &trans
             >;
-
-            sensor-bindings = <&scroll_up_down>;
         };
 
         SCROLL {
@@ -167,8 +161,6 @@
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
             >;
-
-            sensor-bindings = <&scroll_up_down>;
         };
 
         layer_6 {
@@ -178,8 +170,6 @@
 &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans      &bootloader  &trans        &trans        &trans        &trans        &bt BT_CLR
 &trans  &trans        &trans        &trans        &trans  &trans      &trans       &trans                                                  &bt BT_CLR_ALL
             >;
-
-            sensor-bindings = <&scroll_up_down>;
         };
     };
 };
