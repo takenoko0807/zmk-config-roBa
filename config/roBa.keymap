@@ -105,6 +105,10 @@
 macros {};
 
 behaviors {};
+
+macros {};
+
+behaviors {};
 keymap {
         compatible = "zmk,keymap";
 
@@ -165,7 +169,6 @@ keymap {
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
 >;
 
-            sensor-bindings = <&scroll_up_down>;
         };
 
         layer_6 {
@@ -176,7 +179,6 @@ keymap {
 &trans  &trans        &trans        &trans        &trans  &trans      &trans       &trans                                                  &bt BT_CLR_ALL
 >;
 
-            sensor-bindings = <&scroll_up_down>;
         };
     };
 };
