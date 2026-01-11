@@ -66,7 +66,7 @@
         };
 
         mkp_exit_AML: mkp_exit_AML {
-            compatible = "zmk,behavior—macro—one—param";
+            compatible = "zmk,behavior-macro-one-param";
             #binding-cells = <1>;
             bindings =
                 <&macro_press>,
