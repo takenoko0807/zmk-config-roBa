@@ -4,6 +4,8 @@
 #include <dt-bindings/zmk/pointing.h>
 
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 100
+#define MOUSE 4 //マウスレイヤーに合わせて設定
+&sl { release-after-ms = <250>;}; //ダブルクリックに必要な時間を設定
 
 &mt {
     flavor = "balanced";
@@ -75,7 +77,7 @@
                 <&macro_release>,
                 <&macro_param_1to1 &mkp MACRO_PLACEHOLDER>,
                 <&macro_tap>,
-                <&sl 4>;
+                <&sl MOUSE>;
 
             label = "MKP_EXIT_AML";
         };
